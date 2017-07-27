@@ -21,6 +21,8 @@
 
     <modules>
         <module>spring</module>
+        <module>zookeeper</module>
+        <module>thread</module>
     </modules>
 
 </project>
