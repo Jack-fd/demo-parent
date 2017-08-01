@@ -108,6 +108,7 @@
         <module>spring</module>
         <module>zookeeper</module>
         <module>thread</module>
+        <module>jvm</module>
     </modules>
 
     <build>
