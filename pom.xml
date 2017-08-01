@@ -109,6 +109,7 @@
         <module>zookeeper</module>
         <module>thread</module>
         <module>jvm</module>
+        <module>source</module>
     </modules>
 
     <build>
