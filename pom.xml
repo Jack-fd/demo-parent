@@ -110,6 +110,7 @@
         <module>thread</module>
         <module>jvm</module>
         <module>source</module>
+        <module>other</module>
     </modules>
 
     <build>
