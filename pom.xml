@@ -117,6 +117,7 @@
         <module>jvm</module>
         <module>source</module>
         <module>other</module>
+        <module>gof4</module>
     </modules>
 
     <build>
