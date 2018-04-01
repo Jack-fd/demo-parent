@@ -119,6 +119,7 @@
         <module>source</module>
         <module>other</module>
         <module>gof4</module>
+        <module>io</module>
     </modules>
 
     <build>
