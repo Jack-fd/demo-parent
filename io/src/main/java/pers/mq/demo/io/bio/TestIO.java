@@ -8,15 +8,13 @@ import java.util.concurrent.Executors;
  * BIO测试方法
  *
  * @author MQ
- * <p>
- * https://blog.csdn.net/anxpp/article/details/51512200
  */
-public class Test {
+public class TestIO {
+
     public static void main(String[] args) throws InterruptedException {
         Executors.newSingleThreadExecutor().execute(() -> {
             try {
-                ServerBetter.start();
-//                ServerNormal.start();
+                ServerNormal.start();
             } catch (IOException e) {
                 e.printStackTrace();
             }

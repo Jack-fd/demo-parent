@@ -3,7 +3,6 @@ package pers.mq.demo.io.bio;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.Executors;
 
 /**
  * BIO服务器源码
@@ -31,7 +30,7 @@ public class ServerNormal {
             System.out.println("服务器已启动，端口号: " + port);
             while (true) {
                 Socket socket = serverSocket.accept();
-                Executors.newCachedThreadPool().execute(new ServerHandler(socket));
+                new Thread(new ServerHandler(socket)).start();
             }
         } finally {
             if (serverSocket != null) {

@@ -120,6 +120,7 @@
         <module>other</module>
         <module>gof4</module>
         <module>io</module>
+        <module>flyway</module>
     </modules>
 
     <build>
